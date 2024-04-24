@@ -171,10 +171,10 @@ html{
 }
 
 .project-list a {
-    width: 25%; /* Distribute anchor width equally to maintain layout */
+    width: 25%; 
     margin-left: 0.5%;
     margin-right: 0.5%;
-    text-decoration: none; /* Remove underline from anchor */
+    text-decoration: none; 
     opacity: 0.8;
     transition: opacity 0.8s;
 }
@@ -184,7 +184,7 @@ html{
 }
 
 .project-list img {
-    width: 100%; /* Make image fill the anchor */
+    width: 100%; 
 }
 
 
@@ -207,12 +207,12 @@ html{
 
 
 .icon {
-    position: fixed; /* Make the button fixed */
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 10px; /* Adjust the distance from the right as needed */
+    position: fixed; 
+    bottom: 20px; 
+    right: 10px; 
     display: flex;
     flex-direction: row;
-    z-index: 999; /* Ensure the button stays on top of other elements */
+    z-index: 999; 
 }
 
 .icon a{
@@ -220,17 +220,17 @@ html{
 }
 
 .icon a {
-    display: block; /* Ensures the entire image area is clickable */
+    display: block; 
 }
 
 .icon img {
     width: 40px;
     height: auto;
-    transition: transform 0.2s ease; /* Add a transition effect */
+    transition: transform 0.2s ease; 
 }
 
 .icon a:hover img {
-    transform: scale(1.1); /* Increase size on hover */
+    transform: scale(1.1); 
 }
 
 
@@ -298,19 +298,19 @@ footer a{
 
 
 .project-list a {
-    width: 45%; /* Reduzir a largura do link */
-    margin: 5px; /* Ajustar a margem */
+    width: 45%; 
+    margin: 5px; 
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .projects h2 {
-    font-size: 24px; /* Reduzir o tamanho do título */
+    font-size: 24px; 
 }
 
 .projects p {
-    font-size: 16px; /* Reduzir o tamanho do parágrafo */
-    margin-bottom: 30px; /* Ajustar a margem inferior */
+    font-size: 16px; 
+    margin-bottom: 30px; 
 }
 
 
