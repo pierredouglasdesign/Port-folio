@@ -63,6 +63,7 @@ html{
     margin-right: 100px;
 }
 
+
 .main h1{
     color: var(--main-text);
     font-size: 45px;
@@ -88,6 +89,17 @@ html{
 
 .call-to-action:hover{
     transform: scale(1.1);
+}
+
+.cu{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--second-text);
+}
+
+.cu:hover{
+    color: var(--main-text);
 }
 
 .about{
@@ -253,6 +265,13 @@ footer a{
     .main p{
         font-size: 16px;
     }
+
+    .imagem{
+        display: none;
+    }
+
+
+    
 .about{
     flex-direction: column;
     padding-top: 80px;
@@ -275,15 +294,28 @@ footer a{
     font-size: 16px;
 }
 
-.projects h2{
-    font-size: 22px;
+
+
+.project-list a {
+    width: 45%; /* Reduzir a largura do link */
+    margin: 5px; /* Ajustar a margem */
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.projects p{
-    font-size: 16px;
+
+.projects h2 {
+    font-size: 24px; /* Reduzir o tamanho do título */
 }
-.projects img{
-    width: 27.5%;
+
+.projects p {
+    font-size: 16px; /* Reduzir o tamanho do parágrafo */
+    margin-bottom: 30px; /* Ajustar a margem inferior */
 }
+
+
+
+
+
 
 footer{
     flex-direction: column;
